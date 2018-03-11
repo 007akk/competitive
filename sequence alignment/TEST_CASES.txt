@@ -1,0 +1,65 @@
+
+INPUT / OUTPUT VALUES OF THE RECURSIVE VERSION OF CODE:
+
+	INPUT : 
+
+		10 6
+		ACCCCCGGGT
+		ACCCCC
+
+	OUTPUT :
+		
+		COST : 40
+		[X: T , Y:   ]
+		[X: G , Y:   ]
+		[X: G , Y:   ]
+		[X: G , Y:   ]
+		[X: C , Y: C ]
+		[X: C , Y: C ]
+		[X: C , Y: C ]
+		[X: C , Y: C ]
+		[X: C , Y: C ]
+		[X: A , Y: A ]
+		----- execution time for the program: 0.000165 seconds.------- 
+
+	INPUT : 
+
+		4 3
+		ACGT
+		AGT
+
+	OUTPUT :
+		
+		COST : 10
+		[X: T , Y: T ]
+		[X: G , Y: G ]
+		[X: C , Y:   ]
+		[X: A , Y: A ]
+		----- execution time for the program: 0.000446 seconds.------- 
+
+
+	INPUT : 
+
+		4 15
+		ACGT
+		AGTTTTCGGGGGCTC
+
+	OUTPUT :
+		
+		COST : 110
+		[X:   , Y: C ]
+		[X: T , Y: T ]
+		[X:   , Y: C ]
+		[X:   , Y: G ]
+		[X:   , Y: G ]
+		[X:   , Y: G ]
+		[X:   , Y: G ]
+		[X: G , Y: G ]
+		[X: C , Y: C ]
+		[X:   , Y: T ]
+		[X:   , Y: T ]
+		[X:   , Y: T ]
+		[X:   , Y: T ]
+		[X:   , Y: G ]
+		[X: A , Y: A ]
+		----- execution time for the program: 0.000460 seconds.------- 
